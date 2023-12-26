@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3680fcee19c34022bcee0a60392a5543" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="TemplateModel.Material" Width="1.5" PointX="3" PointY="5.125" />
+        <EntityTypeShape EntityType="TemplateModel.Product" Width="1.5" PointX="3" PointY="0.875" />
+        <EntityTypeShape EntityType="TemplateModel.ProductType" Width="1.5" PointX="0.75" PointY="1" />
+        <EntityTypeShape EntityType="TemplateModel.Recept" Width="1.5" PointX="5.25" PointY="0.875" />
+        <EntityTypeShape EntityType="TemplateModel.Role" Width="1.5" PointX="5.75" PointY="5.25" />
+        <EntityTypeShape EntityType="TemplateModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" />
+        <EntityTypeShape EntityType="TemplateModel.User" Width="1.5" PointX="8" PointY="4.875" />
+        <AssociationConnector Association="TemplateModel.FK_Recept_Material" />
+        <AssociationConnector Association="TemplateModel.FK_Product_ProductType" />
+        <AssociationConnector Association="TemplateModel.FK_Recept_Product" />
+        <AssociationConnector Association="TemplateModel.FK_User_Role" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
