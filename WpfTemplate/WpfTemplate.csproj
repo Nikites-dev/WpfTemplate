@@ -331,6 +331,8 @@
       <DependentUpon>ModelDb.edmx</DependentUpon>
       <LastGenOutput>ModelDb.cs</LastGenOutput>
     </Content>
+    <Content Include="Scripts\sqlProduct2017.sql" />
+    <Content Include="Scripts\sqlProduct2019.sql" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
